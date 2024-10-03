@@ -1,0 +1,71 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Dealer App</title>
+    <link rel="stylesheet" media="all and (min-width:1093px)" href="./static/css/large_screen.css">
+    <link rel="stylesheet" media="all and (min-width:451px) and (max-width:1092px)" href="./static/css/medium_screen.css">
+    <link rel="stylesheet" media="all and (max-width:450px)" href="./static/css/small_screen.css">
+    <script type="text/javascript" src="./static/cars.js"></script>
+</head>
+
+<body>
+    <!-- Title -->
+    <h1>Car Dealer App</h1>
+
+    <ul id="options_menu">
+
+        <!-- Car Dropdown List -->
+        <li>
+            <h4>Car Type</h4>
+            <select name="car_type" id="car_type">
+                <option value="ferrari">Ferrari</option>
+                <option value="lamborghini">Lamborghini</option>
+                <option value="mustang">Mustang</option>
+            </select>
+        </li>
+
+        <!-- Color Dropdown List -->
+        <li>
+            <h4>Car Color</h4>
+            <select name="car_color" id="car_color">
+                <option value="red">Red</option>
+                <option value="white">White</option>
+                <option value="yellow">Yellow</option>
+            </select>
+        </li>
+
+        <!-- Insurance Plan Option -->
+        <li>
+            <form action="">
+                <h4>Insurance Plan</h4>
+                <input type="radio" id="no_insurance" value="no_insurance" name="insurance_group">
+                <label for="no_insurance">No Insurance</label>
+                <br>
+                <input type="radio" id="three_year_insurance" value="three_year_insurance" name="insurance_group" checked>
+                <label for="three_year_insurance">Three Year Insurance</label>
+            </form>
+        </li>
+    </ul>
+
+    <!-- Car Display and Description -->
+    <div id="car_display">
+        <img id="car_image" src="./static/images/ferrari_red.png" alt="">
+        <br><br>
+        <h4>Description</h4>
+        <textarea name="car_description" id="description" readonly>
+Car: Ferrari
+Description: Indulge in Ferrari's blend of Italian craftsmanship, cutting-edge technology, and exhilarating performance, setting the standard for automotive excellence and unforgettable driving experiences.
+Selected color: red
+Basic Price: 60,000
+    </textarea>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

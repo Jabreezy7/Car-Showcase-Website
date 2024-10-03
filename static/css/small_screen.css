@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+
+h4 {
+    margin: 0 0 5 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+#options_menu {
+    float: left;
+    padding: 0;
+    margin-left: 20px;
+}
+
+#options_menu li {
+    list-style: none;
+    margin: 0 0 50 0;
+}
+
+#options_menu h4 {
+    font-weight: 100;
+}
+
+#car_display {
+    float: left;
+    text-align: center;
+    max-width: 100%;
+    margin-left: 20px;
+}
+
+#car_display textarea {
+    height: 200px;
+    width: 100%;
+}
+
+#car_display h4 {
+    font-weight: 100;
+}
